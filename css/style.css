@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(
+        60deg,
+        rgba(255,165,150,0.5) 5%,
+        rgba(0,228,255,0.35)
+    ),
+     url('../image/bg.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0; 
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Source Sans Pro",Arial, Helvetica, sans-serif;
+}
+
+/* Main Section Start*/
+
+#sectionmain{
+    background-color: white;
+    width: 20%;   /**/
+    padding: 40px;
+    /* margin: 50px 37%;    ----> Hard Coded Margin based upon Width  */
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+img{
+    width: 118px;
+    height:122px;
+    border-radius: 100%;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    padding:10px ;
+}
+
+/* Main Section End*/
+h1{
+    color:#313f47;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+h1:hover{
+    transform: scale(1);
+    transition: ease-in-out all 1.9s;
+    color: red;
+    font-size: 25px;
+}
+
+img:hover{
+    transform: rotate(360deg);
+    transition: ease-in-out all 3.2s;
+    border: 1px solid #111;
+}
+
+i{
+    font-size: 25px;
+}
+
+.fa-twitter:hover{
+    color: #00acee;
+}
+
+.fa-instagram:hover{
+    color:#fb3958;
+}
+
+.fa-facebook-square:hover{
+    color:#3b5998 ;
+}
+
+ul li a{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+
+.fab{
+    color: #ccc;
+}
+
+#copyright{
+    text-align: center;
+    width: 50%;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: aliceblue;
+}
+
+
+
